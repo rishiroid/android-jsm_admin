@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "684943853594",
+    "project_id": "jsm-admin",
+    "storage_bucket": "jsm-admin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684943853594:android:0eef51524efd16739069a3",
+        "android_client_info": {
+          "package_name": "com.rishiz.jsmadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684943853594-gt0b3avfjbtdmrf8r5sbsbl8b6o8cpqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1weUaTfn7nD9SViAXHieS46zVlUk_y1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684943853594-gt0b3avfjbtdmrf8r5sbsbl8b6o8cpqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

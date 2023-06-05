@@ -11,4 +11,9 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_category">Add Category</string>
+    <string name="add_product">Add Product</string>
+    <string name="all_order_details">All Order Details</string>
+    <string name="category_name">Category Name</string>
+    <string name="loading">Loading..</string>
 </resources>

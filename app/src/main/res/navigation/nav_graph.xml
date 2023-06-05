@@ -3,11 +3,38 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/loginFragment">
+    app:startDestination="@id/mainFragment">
 
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.rishiz.jsmadmin.view.fragments.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.rishiz.jsmadmin.view.fragments.MainFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_productFragment"
+            app:destination="@id/productFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_categoryFragment"
+            app:destination="@id/categoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.rishiz.jsmadmin.view.fragments.CategoryFragment"
+        android:label="CategoryFragment" />
+    <fragment
+        android:id="@+id/productFragment"
+        android:name="com.rishiz.jsmadmin.view.fragments.ProductFragment"
+        android:label="ProductFragment" >
+        <action
+            android:id="@+id/action_productFragment_to_addProductFragment"
+            app:destination="@id/addProductFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addProductFragment"
+        android:name="com.rishiz.jsmadmin.view.fragments.AddProductFragment"
+        android:label="AddProductFragment" />
 </navigation>
